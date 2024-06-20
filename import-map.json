@@ -1,0 +1,96 @@
+{
+  "imports": {
+    "@solidjs/start": "https://esm.sh/@solidjs/start?external=rollup,uWebSockets.js,@vinxi/plugin-directives",
+    "@solidjs/start/config": "https://esm.sh/@solidjs/start/config?external=rollup,uWebSockets.js,@vinxi/plugin-directives",
+    "solid-js": "npm:solid-js",
+    "solid-js/": "npm:/solid-js/",
+    "vinxi": "https://esm.sh/vinxi@0.3.12?external=async_hooks,esbuild,uWebSockets.js",
+    "vinxi/cli": "./vinxi-cli.js"
+  },
+  "scopes": {
+    "npm:@solidjs/start": {
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs"
+    },
+    "npm:/@solidjs/start/": {
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs"
+    },
+    "npm:@vinxi/plugin-directives": {
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs"
+    },
+    "npm:": {
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs"
+    },
+    "npm:/": {
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs"
+    },
+    "https://esm.sh/v135/": {
+      "@mapbox/node-pre-gyp": "npm:@mapbox/node-pre-gyp",
+      "async_hooks": "node:async_hooks",
+      "child_process": "node:child_process",
+      "esbuild": "npm:esbuild",
+      "fs": "node:fs",
+      "fs/promises": "node:fs/promises",
+      "module": "node:module",
+      "resolve": "npm:resolve",
+      "rollup": "npm:rollup",
+      "rollup/": "npm:/rollup/",
+      "uWebSockets.js": "https://raw.githubusercontent.com/uNetworking/uWebSockets.js/v20.33.0/ESM_wrapper.mjs",
+      "@vinxi/plugin-directives": "https://unpkg.com/@vinxi/plugin-directives@0.3.1/index.js",
+      "https://esm.sh/v135/vinxi@0.3.12/X-ZS9AdmlueGkvcGx1Z2luLWRpcmVjdGl2ZXMscm9sbHVwLHVXZWJTb2NrZXRzLmpz/denonext/lib/chunks.js": "./chunks.js",
+      "https://esm.sh/v135/@babel/helper-module-transforms@7.24.7/X-ZS9AdmlueGkvcGx1Z2luLWRpcmVjdGl2ZXMscm9sbHVwLHVXZWJTb2NrZXRzLmpz/denonext/helper-module-transforms.mjs": "npm:/@babel/helper-module-transforms/helper-module-transforms.mjs",
+      "@babel/core@7.24.7": "npm:@babel/core",
+      "https://esm.sh/v135/@babel/core@7.24.7/X-ZS9AdmlueGkvcGx1Z2luLWRpcmVjdGl2ZXMscm9sbHVwLHVXZWJTb2NrZXRzLmpz/denonext/core.mjs": "npm:/@babel/core/core.mjs",
+      "https://esm.sh/v135/vite-plugin-solid@2.10.2/X-ZS9AdmlueGkvcGx1Z2luLWRpcmVjdGl2ZXMscm9sbHVwLHVXZWJTb2NrZXRzLmpz/denonext/vite-plugin-solid.mjs": "https://esm.sh/vite-plugin-solid?external=@babel/core,rollup",
+      "@babel/core": "npm:@babel/core",
+      "@babel/core/": "npm:/@babel/core/",
+      "@babel/core/7.24.7/core.mjs": "npm:/@babel/core/lib/index.js",
+      "/v135/@babel/core@7.24.7/X-ZS9AdmlueGkvcGx1Z2luLWRpcmVjdGl2ZXMscm9sbHVwLHVXZWJTb2NrZXRzLmpz/denonext/core.mjs":"npm:/@babl/core/lib/index.js"
+    },
+    "https://unpkg.com/": {
+      "recast": "npm:recast",
+      "module": "node:module",
+      "acorn-typescript": "npm:acorn-typescript",
+      "acorn": "npm:acorn",
+      "acorn-jsx": "npm:acorn-jsx",
+      "astring": "npm:astring",
+      "magicast": "npm:magicast",
+      "acorn-loose": "npm:acorn-loose",
+      "tslib": "npm:tslib",
+      "fs": "node:fs",
+      "https://unpkg.com/@vinxi/plugin-directives@0.3.1/parse.js": "./vinxi-plugin-directives-parse.js",
+      "../parse.js": "./vinxi-plugin-directives-parse.js"
+    },
+    "./vinxi-plugin-directives-parse.js": {
+      "recast": "npm:recast",
+      "module": "node:module",
+      "acorn-typescript": "npm:acorn-typescript",
+      "acorn": "npm:acorn",
+      "acorn-jsx": "npm:acorn-jsx",
+      "astring": "npm:astring",
+      "magicast": "npm:magicast",
+      "acorn-loose": "npm:acorn-loose",
+      "tslib": "npm:tslib",
+      "fs": "node:fs"
+    },
+    "./vinxi-cli.js": {
+      "@vinxi/listhen": "https://esm.sh/@vinxi/listhen@1.5.6?external=child_process,fs,uWebSockets.js,@vinxi/plugin-directives",
+      "chokidar": "npm:chokidar",
+      "citty": "https://esm.sh/citty@0.1.6?external=uWebSockets.js,@vinxi/plugin-directives",
+      "h3/package.json": "https://esm.sh/h3@1.12.0/package.json?external=uWebSockets.js,@vinxi/plugin-directives",
+      "serve-static": "https://esm.sh/serve-static@1.15.0?external=uWebSockets.js,@vinxi/plugin-directives",
+      "nitropack/package.json": "npm:/nitropack@2.9.6/package.json",
+      "vinxi/lib/build": "https://esm.sh/vinxi@0.3.12/lib/build?external=@mapbox/node-pre-gyp,async_hooks,fs,module,rollup,uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/lib/dev-server": "https://esm.sh/vinxi@0.3.12/lib/dev-server?external=@mapbox/node-pre-gyp,async_hooks,module,resolve,rollup,uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/lib/load-app": "https://esm.sh/vinxi@0.3.12/lib/load-app?external=@mapbox/node-pre-gyp,async_hooks,esbuild,fs,module,rollup,uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/lib/logger": "https://esm.sh/vinxi@0.3.12/lib/logger?external=async_hooks,uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/lib/path": "https://esm.sh/vinxi@0.3.12/lib/path?external=uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/package.json": "https://esm.sh/vinxi@0.3.12/package.json?external=uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/runtime/http": "https://esm.sh/vinxi@0.3.12/runtime/http?external=async_hooks,uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/runtime/listen": "https://esm.sh/vinxi@0.3.12/runtime/listen?external=uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/runtime/sh": "https://esm.sh/vinxi@0.3.12/runtime/sh?external=uWebSockets.js,@vinxi/plugin-directives",
+      "vinxi/runtime/server": "https://esm.sh/vinxi@0.3.12/runtime/server?external=uWebSockets.js,@vinxi/plugin-directives",
+      "vite": "npm:vite",
+      "vite/": "npm:/vite/"
+    }
+  }
+}

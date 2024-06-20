@@ -1,0 +1,12 @@
+{
+  "lock": false,
+  "tasks": {
+    "dev": "echo \"import 'vinxi/cli'\" | deno run -A - dev"
+  },
+  "importMap": "import-map.json",
+  "lint": {
+    "rules": {
+      "tags": []
+    }
+  }
+}
